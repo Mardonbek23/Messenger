@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/registrFragment">
+
+    <fragment
+        android:id="@+id/registrFragment"
+        android:name="com.example.messenger.fragments.RegistrFragment"
+        android:label="fragment_registr"
+        tools:layout="@layout/fragment_registr" >
+        <action
+            android:id="@+id/action_registrFragment_to_smsFragment"
+            app:destination="@id/smsFragment" />
+        <action
+            android:id="@+id/action_registrFragment_to_headFragment2"
+            app:destination="@id/headFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/smsFragment"
+        android:name="com.example.messenger.fragments.SmsFragment"
+        android:label="fragment_sms"
+        tools:layout="@layout/fragment_sms" >
+        <action
+            android:id="@+id/action_smsFragment_to_desFragment"
+            app:destination="@id/desFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/desFragment"
+        android:name="com.example.messenger.fragments.DesFragment"
+        android:label="fragment_des"
+        tools:layout="@layout/fragment_des" >
+        <action
+            android:id="@+id/action_desFragment_to_headFragment"
+            app:destination="@id/headFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/headFragment"
+        android:name="com.example.messenger.fragments.HeadFragment"
+        android:label="fragment_head"
+        tools:layout="@layout/fragment_head" >
+        <action
+            android:id="@+id/action_headFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_headFragment_to_messageChatFragment"
+            app:destination="@id/messageChatFragment" />
+        <action
+            android:id="@+id/action_headFragment_to_messageGroupFragment"
+            app:destination="@id/messageGroupFragment" />
+        <action
+            android:id="@+id/action_headFragment_to_contactsFragment"
+            app:destination="@id/contactsFragment" />
+        <action
+            android:id="@+id/action_headFragment_to_messageChannelFragment"
+            app:destination="@id/messageChannelFragment" />
+        <action
+            android:id="@+id/action_headFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.messenger.fragments.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_addGroup"
+            app:destination="@id/addGroup" />
+        <action
+            android:id="@+id/action_menuFragment_to_addChannelFragment"
+            app:destination="@id/addChannelFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_savedFragment"
+            app:destination="@id/savedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messageChatFragment"
+        android:name="com.example.messenger.fragments.MessageChatFragment"
+        android:label="fragment_message_chat"
+        tools:layout="@layout/fragment_message_chat" >
+        <action
+            android:id="@+id/action_messageChatFragment_to_showChatFragment"
+            app:destination="@id/showChatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addGroup"
+        android:name="com.example.messenger.fragments.AddGroup"
+        android:label="fragment_add_group"
+        tools:layout="@layout/fragment_add_group" />
+    <fragment
+        android:id="@+id/messageGroupFragment"
+        android:name="com.example.messenger.fragments.MessageGroupFragment"
+        android:label="fragment_message_group"
+        tools:layout="@layout/fragment_message_group" >
+        <action
+            android:id="@+id/action_messageGroupFragment_to_showGroupFragment"
+            app:destination="@id/showGroupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showGroupFragment"
+        android:name="com.example.messenger.fragments.ShowGroupFragment"
+        android:label="fragment_show_group"
+        tools:layout="@layout/fragment_show_group" />
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="com.example.messenger.fragments.ContactsFragment"
+        android:label="fragment_contacts"
+        tools:layout="@layout/fragment_contacts" />
+    <fragment
+        android:id="@+id/showChatFragment"
+        android:name="com.example.messenger.fragments.ShowChatFragment"
+        android:label="fragment_show_chat"
+        tools:layout="@layout/fragment_show_chat" />
+    <fragment
+        android:id="@+id/addChannelFragment"
+        android:name="com.example.messenger.fragments.AddChannelFragment"
+        android:label="fragment_add_channel"
+        tools:layout="@layout/fragment_add_channel" />
+    <fragment
+        android:id="@+id/messageChannelFragment"
+        android:name="com.example.messenger.fragments.MessageChannelFragment"
+        android:label="fragment_message_channel"
+        tools:layout="@layout/fragment_message_channel" >
+        <action
+            android:id="@+id/action_messageChannelFragment_to_showChannelFragment"
+            app:destination="@id/showChannelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showChannelFragment"
+        android:name="com.example.messenger.fragments.ShowChannelFragment"
+        android:label="fragment_show_channel"
+        tools:layout="@layout/fragment_show_channel" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.messenger.fragments.SearchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.example.messenger.fragments.SavedFragment"
+        android:label="fragment_saved"
+        tools:layout="@layout/fragment_saved" />
+</navigation>

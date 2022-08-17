@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/chats"
+        android:icon="@drawable/ic_selected_chat"
+        android:enabled="true"
+        android:title="Chatlar" />
+    <item
+        android:id="@+id/groups"
+        android:enabled="true"
+        android:icon="@drawable/ic_u_group"
+        android:title="Guruhlar" />
+    <item
+        android:id="@+id/chanels"
+        android:enabled="true"
+        android:icon="@drawable/ic_u_chanel"
+        android:title="Kanallar" />
+    <item
+        android:id="@+id/menu"
+        android:enabled="true"
+        android:icon="@drawable/ic_u_menu"
+        android:title="Menu" />
+</menu>

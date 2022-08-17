@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/drawable/edit_style.xml" value="0.2111111111111111" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/drawable/ic_baseline_chevron_left_24.xml" value="0.20185185185185187" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/drawable/ic_chatlar.xml" value="0.19537037037037036" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/drawable/ic_script.xml" value="0.19537037037037036" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/drawable/ic_smile.xml" value="0.19537037037037036" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/drawable/ic_u_menu.xml" value="0.20185185185185187" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/drawable/ic_voice.xml" value="0.11041666666666666" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/drawable/mic_back_style.xml" value="0.20185185185185187" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/drawable/search_style.xml" value="0.2101851851851852" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/account_item.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/bottom_dialog.xml" value="0.10916919959473151" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/contact_add_item.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/contact_dialog.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/contact_item.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/custom_delete_item.xml" value="0.19701086956521738" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/custom_dialog.xml" value="0.12" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/emoji_text_view.xml" value="0.17255434782608695" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_contacts.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_head.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_menu.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_message_channel.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_message_chat.xml" value="0.18" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_message_group.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_registr.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_saved.xml" value="0.18885869565217392" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_search.xml" value="0.19519927536231885" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_show_channel.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_show_chat.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_show_group.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/fragment_sms.xml" value="0.10916919959473151" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/item_from.xml" value="0.22" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/item_to.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/layout/item_to_group.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/menu/bottom_menu.xml" value="0.1527777777777778" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/menu/image_popup_menu.xml" value="0.19895833333333332" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/menu/message_popup_menu.xml" value="0.19895833333333332" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/menu/message_popup_menu_channel.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/menu/message_popup_menu_to.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidProjects/Messenger/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20462962962962963" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

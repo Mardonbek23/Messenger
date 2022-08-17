@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="web_client_id">907334508003-tvcbnn3hcgt131cab0528ilhavd8577s.apps.googleusercontent.com</string>
+    <string name="strings">str</string>
+</resources>
